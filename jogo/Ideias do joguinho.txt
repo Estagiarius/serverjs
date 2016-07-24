@@ -1,0 +1,63 @@
+--DESCRIÇÃO DO JOGO--
+
+--TECONOLOGIAS--
+
+	- ORIENTAÇÃO À OBJETO: Como vamos lidar com pessoas, habilidades e eventos, Orientaçao à Objetos parece ser o melhor.
+
+--HABILIDADES--
+
+	--HABILIDADES ACADÊMICAS--
+	
+	--
+
+	- Lógica
+	- Matemática
+	- Física
+	- Interpretação de Texto
+	- Escrita/Redação
+	
+
+	--HABILIDADES SOCIAIS--
+	
+	- Conversação
+	- Carisma
+	- Sedutividade
+	- Artística
+
+	--HABILIDADES FÍSICAS--
+
+	- Força
+	- Resistência
+
+	--HABILIDADES OCULTAS--
+
+	- Foco
+	- Condição Física Básica
+	- Memória
+
+--FUNÇÃO PRINCIPAL DO JOGO--
+
+	 - Contagem dos Dias
+	 Ex. --Dia 35--
+
+	 - Períodos do Dia
+	 Ex. --08:00--
+	 Obs. Usar um gerador randômico ou uma fórmula para calcular o horário em que vai acordar
+
+	 - Ações Disponíveis (4 por vez)
+	 Ex. Você foi pintar (- +3 em Art - +1 em Cult)
+
+	 - Criar personagens e eventos para interação
+	 Ex. Milena pediu ajuda no trabalho de CÁLCULO DIFERENCIAL E INTEGRAL 1
+
+
+--PROFESSORES--
+
+	- O nome dos professores pode mudar de acordo com o indvíduo.
+
+	- CÁLCULO DIFERENCIAL E INTEGRAL 1 --> FRANCISCO
+	- COMUNICAÇÃO E EXPRESSÃO          --> RAFAELA
+	- DESENVOLVIMENTO WEB		   --> CARLA
+	- DESENVOLVIMENTO DE ALGORÍTMOS	   --> CECIL
+	- SOCIOLOGIA	     		   --> GARRICK
+
