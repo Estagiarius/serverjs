@@ -10,3 +10,8 @@
 
 - mongod --> Inicia o servidor
 - mongo --> Liga a interface de interaçăo com o banco.
+
+
+#Anotações
+28/07/16 -- O arquivo de servidor ejs foi trocado por um express. Dessa forma, foi tirado o ejs dos módulos do node.
+OBS: Caso queira usar algo com ejs, instale novamente pelo npm.

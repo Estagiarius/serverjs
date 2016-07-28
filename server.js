@@ -3,12 +3,11 @@
  */
 
 var express = require('express');
-var ejs = require('ejs');
-var http = require('http');
+var path = require('path');
 var app = express();
 
 //É o ejs que coordena a visualização das páginas
-app.set('view engine', 'ejs');
+//app.set('view engine', 'ejs'); --- *EJS DESCONTINUADO PARA ESSA FUNÇÃO*
 
 
 
@@ -17,13 +16,11 @@ app.use(express.static(__dirname + '/views'))
 
 //Chamando a página e renderizando ela.
 app.get('/', function (req, res) {
-    res.render('home.ejs');
+    res.sendFile(path.join(__dirname+'/views/home.html'));
 })
 
-//Criando o servidor com o 'http', fazendo requisições ao Express,
-//que está com as páginas.
-var srv = http.createServer(app);
-srv.listen(8080);
+app.listen(80);
 
 
-console.log("Funcionando!");
+
+console.log("Rodando na porta principal!");
